@@ -55,7 +55,8 @@ CREATE TABLE utilizadoCompra (
 
 
 CREATE TABLE USANDO (
-	produto VARCHAR(70) NOT NULL,
+	id int,
+    produto VARCHAR(70) NOT NULL,
     fornecedo VARCHAR(45) NOT NULL,
     marca VARCHAR(45) NOT NULL,
     modelo VARCHAR(45) NOT NULL,
@@ -65,4 +66,5 @@ CREATE TABLE USANDO (
 
 select * from usando;
 
-insert into usando values ('hd', 'eu', 'a', 'top', '124621654245154', 'pc david');
+/*COMANDO PARA PASSA DADOS DA COLUNA COMPRA DE PRODUTOS PARA PRODUTOS USADO*/
+INSERT INTO usando (id,produto, fornecedo, marca, modelo, nSerie, localidade) select id, produto, fornecedo, marca, modelo, nSerie,localidade from compraprod;

@@ -40,16 +40,16 @@
                         ?><!-- fim do da tag de inicio do while-->
 
                         <tr>
-                            <td><?php echo $mostrar ['id'] ?></td>
-                            <td><?php echo $mostrar ['produto'] ?></td>
-                            <td><?php echo $mostrar ['fornecedo'] ?></td>
-                            <td><?php echo $mostrar ['marca'] ?></td>
-                            <td><?php echo $mostrar ['modelo'] ?></td>
-                            <td><?php echo $mostrar ['nSerie'] ?></td>
-                            <td><?php echo $mostrar ['dataCompra'] ?></td>
-                            <td><?php echo $mostrar ['valor'] ?></td>
-                            <td><?php echo $mostrar ['quantidade'] ?></td>
-                            <td><?php echo $mostrar ['localidade'] ?></td>
+                            <td>    <?php echo $mostrar ['id'] ?>               </td>
+                            <td>    <?php echo $mostrar ['produto'] ?>          </td>
+                            <td>    <?php echo $mostrar ['fornecedo'] ?>        </td>
+                            <td>    <?php echo $mostrar ['marca'] ?>            </td>
+                            <td>    <?php echo $mostrar ['modelo'] ?>           </td>
+                            <td>    <?php echo $mostrar ['nSerie'] ?>           </td>
+                            <td>    <?php echo $mostrar ['dataCompra'] ?>       </td>
+                            <td>    <?php echo $mostrar ['valor'] ?>            </td>           
+                            <td>    <?php echo $mostrar ['quantidade'] ?>       </td>
+                            <td>    <?php echo $mostrar ['localidade'] ?>       </td>
                         </tr>
                         <?php
                         }

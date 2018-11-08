@@ -28,14 +28,14 @@ $conect = mysqli_connect("127.0.0.1", "root", "", "estoque");
 
 						while ($mostrar = mysqli_fetch_array($con)) {
 						?><!--começo do while-->
-							
+							<tr>
 								<td>	<?php echo $mostrar ['produto']; ?>		</td>
 								<td>	<?php echo $mostrar ['fornecedo']; ?>	</td>
 								<td>	<?php echo $mostrar ['marca']; ?>		</td>
 								<td>	<?php echo $mostrar ['modelo']; ?>		</td>
 								<td>	<?php echo $mostrar ['nSerie']; ?>		</td>
-								<td>	<?php echo $mostrar['localidade']; ?>	</td>
-
+								<td>	<?php echo $mostrar['localidade']; ?> 	</td>
+							<tr>
 						<?php 
 						}; //fim do while
 						?>
