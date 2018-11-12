@@ -67,4 +67,4 @@ CREATE TABLE USANDO (
 select * from usando;
 
 /*COMANDO PARA PASSA DADOS DA COLUNA COMPRA DE PRODUTOS PARA PRODUTOS USADO*/
-INSERT INTO usando (id,produto, fornecedo, marca, modelo, nSerie, localidade) select id, produto, fornecedo, marca, modelo, nSerie,localidade from compraprod;
+INSERT INTO usando (id,produto, fornecedo, marca, modelo, nSerie, localidade) select id, produto, fornecedo, marca, modelo, nSerie,localidade from compraprod; 

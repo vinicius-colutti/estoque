@@ -18,7 +18,6 @@
     <link href="https://fonts.googleapis.com/css?family=K2D" rel="stylesheet">
     <link rel="stylesheet" type="text/css" media="screen" href="CSS/estilo.css" />
     <script src="main.js"></script>
-    <script src="main.js"></script>
 </head>
 <body class="CORPO-INDEX">
 
