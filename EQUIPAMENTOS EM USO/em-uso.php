@@ -7,7 +7,7 @@ $serve = '127.0.0.1';
 $bd = 'estoque';
 
 $conect = mysqli_connect("127.0.0.1", "root", "", "estoque");
-// fim da conexão 
+// require_once('connect_db.php');fim da conexão 
 ?>
 
 <table border="1">
