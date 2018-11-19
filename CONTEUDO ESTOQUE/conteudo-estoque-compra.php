@@ -52,7 +52,7 @@ $comandoInsert = mysqli_query($conectBanco, $insert);
                             <td>    <?php echo $mostrar ['quantidade'] ?>       </td>
                             <td>    <?php echo $mostrar ['localidade'] ?>       </td>
                              <?php
-                             //<input type="submit" name="usa-prod" >  <?php $comandoInsert = mysqli_query($conectBanco, $insert);?>
+                             //<input type="submit" name="usa-prod" >  <?php $comandoInsert = mysqli_query($conectBanco, $insert);?> $con++;
                         }?><!-- fim do da tag de fim do while-->
 
                             </tr>
